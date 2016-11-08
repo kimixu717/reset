@@ -1,4 +1,4 @@
-/* KISSY CSS Reset
+﻿/* KISSY CSS Reset
 理念：清除和重置是紧密不可分的
 特色：1.适应中文 2.基于最新主流浏览器
 维护：玉伯(lifesinger@gmail.com), 正淳(ragecarrier@gmail.com)
@@ -118,7 +118,6 @@ small {
 ul,
 ol {
     list-style: none;
-    list-style-position: inside; /*kimi添加，使用时设置 padding-left 就行，包裹内容也需设置 padding*/
 }
 
 
