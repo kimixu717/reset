@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*public*/
+body{
+    font-family: "微软雅黑";
+}
+.clearfix{
+    zoom:1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper{
+    width: 1180px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
