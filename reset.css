@@ -159,7 +159,7 @@ hr {
     overflow-y: scroll;
 }*/
 
-html, body {
-    min-height: 100%;
-    _height: 100%;
+/*解决设置元素100%高度无效的问题*/
+html,body{
+    height: 100%;
 }
