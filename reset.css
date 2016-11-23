@@ -28,15 +28,13 @@ th, td {
     padding: 0;
 }
 
-
-/* 设置默认字体 */   /*kimi删除*/
-
-/*body, button, input, select, textarea {*/
+body, button, input, select, textarea {
     /* for ie */
-    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
-    /*font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;*/
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "微软雅黑", sans-serif;*/
+    font: 14px/1 "\u5fae\u8f6f\u96c5\u9ed1", Tahoma, Helvetica, Arial, sans-serif;
     /* 用 ascii 字符表示，使得在任何编码下都无问题 */
-/*}*/
+    color: #333;
+}
 
 h1 {
     font-size: 18px;
@@ -89,12 +87,12 @@ ul, ol {
 
 a {
     text-decoration: none;
-    color: inherit;
-    /*kimi添加，a元素颜色继承，需手动自定义颜色*/
+    color: #333;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #333;
 }
 
 abbr[title], acronym[title] {
@@ -130,8 +128,6 @@ fieldset, img {
 button, input, select, textarea {
     outline: none;
     /*kimi添加，去除获取焦点时默认outline，可以通过修改:focus时border实现同样效果*/
-    box-sizing: content-box;
-    /*kimi添加，让表单控件和其他元素保持一致*/
     font-size: 100%;
     /* 使得表单元素在 ie 下能继承字体大小 */
 }
@@ -162,3 +158,8 @@ hr {
 /*html {
     overflow-y: scroll;
 }*/
+
+html, body {
+    min-height: 100%;
+    _height: 100%;
+}
