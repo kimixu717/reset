@@ -1,6 +1,7 @@
 /*public*/
 .wrapper{
     width: @wrapper;
+    min-width: @wrapper;
     margin: 0 auto;
 }
 .clearfix{
