@@ -31,7 +31,7 @@ th, td {
 body, button, input, select, textarea {
     /* for ie */
     /*font: 12px/1 Tahoma, Helvetica, Arial, "微软雅黑", sans-serif;*/
-    font: 14px/1 "\u5fae\u8f6f\u96c5\u9ed1", Tahoma, Helvetica, Arial, sans-serif;
+    font: 12px/1, Tahoma, Helvetica, Arial, "\u5fae\u8f6f\u96c5\u9ed1", sans-serif;
     /* 用 ascii 字符表示，使得在任何编码下都无问题 */
     color: #333;
 }
